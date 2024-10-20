@@ -1,4 +1,4 @@
-# DSA-Projetos-Python - Projeto 1
+# DSA-Projetos-Python - Projeto 2
 Projetos de Análise de Dados com Linguagem Python - DSA .
 
 Neste curso avançado oferecido pela Data Science Academy (DSA), são exploradas as principais ferramentas e técnicas de Python aplicadas à análise de dados. Com uma abordagem prática, o curso abrange todas as etapas de projetos de análise de dados, desde a coleta, tratamento e organização de informações até a aplicação de algoritmos e visualização de resultados. Ao longo do curso, são utilizados pacotes e bibliotecas populares como Pandas, Numpy, Matplotlib e Seaborn, além de técnicas de Machine Learning para modelos preditivos.
@@ -9,29 +9,33 @@ Cada módulo do curso inclui projetos práticos baseados em conjuntos de dados r
 
 ## Projetos Concluídos:
 
-## Projeto 1: Análise de Dados de Pacientes com Diabetes
-## Descrição do Projeto
+## Técnicas de Pré-processamento para Análise de Dados
+Descrição do Projeto
+Neste projeto, foi utilizado um dataset fictício de funcionários de uma empresa, que coletou dados após a aplicação de um teste psicotécnico. As informações incluem idade, gênero, escolaridade e salário. O objetivo principal foi pré-processar os dados para análise, identificando e resolvendo problemas comuns para garantir uma análise eficiente.
 
-Este projeto foi um sucesso! Trabalhamos com um conjunto de dados contendo informações sobre pacientes diagnosticados ou não com diabetes. Nosso objetivo foi extrair uma amostra dos dados, focando nos pacientes com mais de 50 anos de idade.
+## Importância do Projeto
+Embora os dados sejam fictícios, as variáveis representam informações realistas relevantes para o contexto de negócios.
 
-Para cada indivíduo desse subconjunto, adicionamos uma nova coluna que classifica os pacientes com base no Índice de Massa Corporal (IMC):
-- **Normal**: IMC inferior a 30
-- **Obeso**: IMC igual ou superior a 30
+## Técnicas Utilizadas
+As seguintes técnicas foram empregadas durante o pré-processamento dos dados:
 
-Os dados foram manipulados e exportados para um arquivo CSV, que será encaminhado ao Cientista de Dados responsável.
+Limpeza de Dados: Identificação e remoção de dados ausentes ou inconsistentes.
+Transformação de Dados: Conversão de variáveis categóricas em numéricas, se necessário.
+Normalização: Ajuste de escalas de dados para garantir consistência nas análises.
+Tratamento de Outliers: Identificação e tratamento de valores extremos que podem distorcer resultados.
+# O Que é Correlação e Por Que Correlação Não Implica Causalidade?
+A correlação é uma medida que indica a relação entre duas variáveis, podendo ser positiva, negativa ou nula. No entanto, é crucial entender que correlação não implica causalidade; ou seja, mesmo que duas variáveis estejam correlacionadas, isso não significa que uma causa a outra. Por exemplo, um aumento nas vendas de sorvete e um aumento nos afogamentos podem estar correlacionados devido a um terceiro fator (como o calor).
 
-## Tecnologias Utilizadas
+Variáveis Qualitativas e Quantitativas
+Variáveis Qualitativas: Categóricas, representando características ou qualidades (ex: gênero, escolaridade).
+Variáveis Quantitativas: Numéricas, representando medidas ou contagens (ex: idade, salário).
+Coeficiente de Cramer
+O coeficiente de Cramer é uma medida estatística utilizada para determinar a força da associação entre duas variáveis qualitativas. Ele varia de 0 (sem associação) a 1 (associação perfeita), permitindo avaliar a intensidade da relação entre as variáveis.
 
-- **Python**
-- **SQL**
-- **Banco de Dados**
-- **Pandas**
+## Aprendizados
+Aprender algumas medidas estatísticas não é fácil, mas com o tempo, tudo se ajusta com a prática!
 
-Primeiramente, os dados foram importados utilizando Python. Depois, criamos uma réplica desses dados em um banco de dados, onde aplicamos as transformações necessárias com SQL. Após as alterações, os dados foram transferidos para um dataframe Pandas e salvos no formato CSV.
-## Fonte de Dados
-
-Utilizamos o dataset PIMA, disponível no link abaixo:
-
-[Dataset PIMA](https://data.world/data-society/pima-indians-diabetes-database)
+# Conclusão
+Este projeto foi uma ótima oportunidade para aplicar técnicas de pré-processamento de dados em um cenário prático e desenvolver habilidades em análise de dados.
 
 
