@@ -7,7 +7,7 @@ Cada módulo do curso inclui projetos práticos baseados em conjuntos de dados r
 ## Novos projetos serão adicionados conforme o andamento do curso, expandindo as habilidades em análise de dados com Python.
 
 
-## Projetos Concluídos:
+## Projeto Concluído:
 
 ## Técnicas de Pré-processamento para Análise de Dados
 Descrição do Projeto
